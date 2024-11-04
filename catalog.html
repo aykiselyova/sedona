@@ -39,5 +39,66 @@
         </ul>
       </nav>
     </header>
+    <main class="main-index">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостинницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="index.html" class="breadcrumbs-link">
+              <img src="" alt="Главная страница" />
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостинницы</a>
+          </li>
+        </ul>
+      </header>
+      <section class="catalog-hotels">
+        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+        <form
+          class="catalog-filter"
+          action="https://echo.htmlacademy.ru/"
+          method="get"
+        >
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control" for="swimming-pool">
+                  <input
+                    class="visually-hidden control-input"
+                    type="checkbox"
+                    checked
+                    name="swimming-pool"
+                  />
+                  <span class="control-label">Бвссейн</span>
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control" for="parking">
+                  <input
+                    class="visually-hidden control-input"
+                    type="checkbox"
+                    checked
+                    name="parking"
+                  />
+                  <span class="control-label">Парковка</span>
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control" for="wi-fi">
+                  <input
+                    class="visually-hidden control-input"
+                    type="checkbox"
+                    name="wi-fi"
+                  />
+                  <span class="control-label">Wi-Fi</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
